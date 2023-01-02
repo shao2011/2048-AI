@@ -17,7 +17,6 @@ pip --version
 python3 --version
 pip3 --version
 ```
-
 ## Installing libraries: selenium, numpy, pandas
 [Selenium](https://www.selenium.dev/) is the library that we use as a tool to:  
 * get the data of the game on the web.
@@ -54,7 +53,6 @@ pip install numpy
 ```
 pip3 install numpy
 ```
-
 ## Installing our source code  
 You need to download our **all of 5 files**.  
 * `Grid.py`
@@ -65,6 +63,10 @@ You need to download our **all of 5 files**.
 
 # Run the Project/AI
 To **run the project**, just run the `GameDriver.py` file.  
+* If you already have a source-code editor (like [Visual Studio Code](https://code.visualstudio.com/), [Sublime Text](https://www.sublimetext.com/), [PyCharm](https://www.jetbrains.com/pycharm/download/#section=windows), ...), just run the `GameDriver.py` file in that editor.  
+
+If you don't have any source-code editors, do the followings in your CMD:  
+
 * For Windows, use the following CMD command:
 ```
 python GameDriver.py
@@ -74,7 +76,7 @@ python GameDriver.py
 python3 GameDriver.py
 ```  
 
-The program will **ask you 3 questions**.  
+**After running** the `GameDriver.py` file, program will **ask you 3 questions**.  
 
 * Firstly, it's about the algorithm you want the AI to play based on. You can choose **Expectimax or Minimax**.  
 
@@ -128,4 +130,8 @@ How many times do you want to play?
 3
 ```
 
-After three questions, the AI starts to play 2048 game on the web. A window appears like the shows below.
+# The end
+After three questions, the AI starts to play 2048 game on the web. A window appears like the shows below.  
+That's the end for the README.md file. Enjoy the AI.  
+
+![alt text](https://github.com/shao2011/2048-AI/blob/main/Screenshot%202023-01-03%20015422.png)
