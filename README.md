@@ -132,6 +132,6 @@ How many times do you want to play?
 
 # The end
 After three questions, the AI starts to play 2048 game on the web. A window appears like the shows below.  
-That's the end for the README.md file. Enjoy the AI.  
+That's the end for the `README.md` file. Enjoy the AI.  
 
 ![alt text](https://github.com/shao2011/2048-AI/blob/main/Screenshot%202023-01-03%20015422.png)
