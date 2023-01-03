@@ -11,9 +11,8 @@ import pandas as pd
 
 class GameDriver:
     def __init__(self):
-        self.PATH = "C:\Program Files (x86)\chromedriver.exe"
         self.url = 'https://www.2048.org/'
-        self.driver = webdriver.Chrome(self.PATH)
+        self.driver = webdriver.Chrome()
         self.driver.get(self.url)
         self.body = self.driver.find_element(by=By.TAG_NAME, value="body")
         self.moves = {
